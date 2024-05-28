@@ -1,0 +1,42 @@
+html,
+body {
+  box-sizing: border-box;
+  height: 100%;
+  font-family: "Verdana Pro", sans-serif;
+  background-color: #fafafa; }
+
+.wrapper {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; }
+
+main {
+  flex-grow: 1; }
+
+a {
+  text-decoration: none;
+  color: black; }
+
+.header {
+  &__wrapper{
+    padding: 13px 0px 4px;
+  } 
+}
+
+.intro {
+  &{
+    background-image: url(/image/back__intro.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  &__wrapper {
+    padding: 20px 0px;
+  }
+  &__navbar {
+    background-color: transparent;
+  }
+  &__carousel {
+    margin: 102px 0px 70px;
+  }
+}

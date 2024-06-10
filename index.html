@@ -1,195 +1,173 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <title>Title</title>
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
-    <link href="scss/bootstrap.min.css" rel="stylesheet" />
-    <link rel="stylesheet" href="/scss/main.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="/fonts/stylesheet.css" rel="stylesheet" />
-  </head>
 
-  <body>
-    <header class="header">
-      <div class="header__wrapper">
-        <div class="container">
-          <div class="row align-items-center">
-            <div class="col-12 col-md-3 text-center mb-3">
-              <img src="/image/phone.svg" alt="" />
-              <a href="[[$telephone]]" class="text-nowrap">+7(495)000 00 00 </a>
+<head>
+  <title>Title</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <link href="scss/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="/scss/main.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="/fonts/stylesheet.css" rel="stylesheet" />
+</head>
+
+<body>
+  <header class="header">
+    <div class="header__wrapper">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-12 col-md-3 text-center mb-3">
+            <img src="/image/phone.svg" alt="" />
+            <a href="[[$telephone]]" class="text-nowrap">+7(495)000 00 00 </a>
+          </div>
+          <div class="col-12 col-md-3 text-center mb-3">
+            <img src="/image/email.svg" alt="" />
+            <a href="[[$email]]">email@asd</a>
+          </div>
+          <div class="col-12 col-md-3 text-center mb-3">
+            <img src="/image/place.svg" alt="" />
+            <a href="[[$place__map]]">Балашиха</a>
+          </div>
+          <div class="col-12 col-md-3">
+            <div class="social--contact__link text-md-end text-center mb-3">
+              <a href=""><img src="/image/tg.svg" alt="" /></a>
+              <a href=""><img src="/image/wh.svg" alt="" /></a>
             </div>
-            <div class="col-12 col-md-3 text-center mb-3">
-              <img src="/image/email.svg" alt="" />
-              <a href="[[$email]]">email@asd</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="intro">
+      <div class="intro__wrapper">
+        <div class="intro__navbar">
+          <div class="container">
+            <nav class="navbar navbar-dark navbar-expand-lg">
+              <div class="container-fluid">
+                <a href="#" class="navbar-brand"><img src="/image/logo.png" class="img-fluid" /></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+                  aria-label="Переключатель навигации">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center" id="navbarTogglerDemo02">
+                  <ul class="navbar-nav mb-2 mb-lg-0 gap-lg-5">
+                    <li class="nav-item">
+                      <a class="nav-link" aria-current="page" href="#">Услуги</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Новости</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link">Готовые обьекты</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link">Отзывы</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link">Контакты</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+          </div>
+        </div>
+        <div class="intro__carousel">
+          <div id="carouselExampleFade" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <p class="fs-3 text-center text-light">
+                  <span class="fs-1 text-warning">Монтаж кровли</span> под
+                  ключ<br />строительство, фасады, бани
+                </p>
+              </div>
+              <div class="carousel-item">
+                <p class="fs-3 text-center text-light">
+                  <span class="fs-1 text-warning">Монтаж кровли</span> под
+                  ключ<br />строительство, фасады, бани
+                </p>
+              </div>
+              <div class="carousel-item">
+                <p class="fs-3 text-center text-light">
+                  <span class="fs-1 text-warning">Монтаж кровли</span> под
+                  ключ<br />строительство, фасады, бани
+                </p>
+              </div>
             </div>
-            <div class="col-12 col-md-3 text-center mb-3">
-              <img src="/image/place.svg" alt="" />
-              <a href="[[$place__map]]">Балашиха</a>
-            </div>
-            <div class="col-12 col-md-3">
-              <div class="social--contact__link text-md-end text-center mb-3">
-                <a href=""><img src="/image/tg.svg" alt="" /></a>
-                <a href=""><img src="/image/wh.svg" alt="" /></a>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Предыдущий</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Следующий</span>
+            </button>
+          </div>
+          <div class="intro__subtitle--carousel">
+            <p class="text-light text-center">
+              Мы выполняем заказы любой сложности
+            </p>
+          </div>
+        </div>
+        <div class="intro__form">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-4">
+                <div class="input-group input-group-lg">
+                  >
+                  <input type="text" class="form-control" aria-label="Пример размера поля ввода"
+                    aria-describedby="inputGroup-sizing-lg" />
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="input-group input-group-lg">
+                  >
+                  <input type="text" class="form-control" aria-label="Пример размера поля ввода"
+                    aria-describedby="inputGroup-sizing-lg" />
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </header>
-    <main>
-      <section class="intro">
-        <div class="intro__wrapper">
-          <div class="intro__navbar">
-            <div class="container">
-              <nav class="navbar navbar-dark navbar-expand-lg">
-                <div class="container-fluid">
-                  <a href="#" class="navbar-brand"
-                    ><img src="/image/logo.png" class="img-fluid"
-                  /></a>
-                  <button
-                    class="navbar-toggler"
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#navbarTogglerDemo02"
-                    aria-controls="navbarTogglerDemo02"
-                    aria-expanded="false"
-                    aria-label="Переключатель навигации"
-                  >
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <div
-                    class="collapse navbar-collapse justify-content-center"
-                    id="navbarTogglerDemo02"
-                  >
-                    <ul class="navbar-nav mb-2 mb-lg-0 gap-lg-5">
-                      <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#"
-                          >Услуги</a
-                        >
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#">Новости</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link">Готовые обьекты</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link">Отзывы</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link">Контакты</a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </nav>
-            </div>
-          </div>
-          <div class="intro__carousel">
-            <div
-              id="carouselExampleFade"
-              class="carousel slide"
-              data-bs-ride="carousel"
-            >
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <p class="fs-3 text-center text-light">
-                    <span class="fs-1 text-warning">Монтаж кровли</span> под
-                    ключ<br />строительство, фасады, бани
-                  </p>
-                </div>
-                <div class="carousel-item">
-                  <p class="fs-3 text-center text-light">
-                    <span class="fs-1 text-warning">Монтаж кровли</span> под
-                    ключ<br />строительство, фасады, бани
-                  </p>
-                </div>
-                <div class="carousel-item">
-                  <p class="fs-3 text-center text-light">
-                    <span class="fs-1 text-warning">Монтаж кровли</span> под
-                    ключ<br />строительство, фасады, бани
-                  </p>
-                </div>
-              </div>
-              <button
-                class="carousel-control-prev"
-                type="button"
-                data-bs-target="#carouselExampleFade"
-                data-bs-slide="prev"
-              >
-                <span
-                  class="carousel-control-prev-icon"
-                  aria-hidden="true"
-                ></span>
-                <span class="visually-hidden">Предыдущий</span>
-              </button>
-              <button
-                class="carousel-control-next"
-                type="button"
-                data-bs-target="#carouselExampleFade"
-                data-bs-slide="next"
-              >
-                <span
-                  class="carousel-control-next-icon"
-                  aria-hidden="true"
-                ></span>
-                <span class="visually-hidden">Следующий</span>
-              </button>
-            </div>
-            <div class="intro__subtitle--carousel">
-              <p class="text-light text-center">
-                Мы выполняем заказы любой сложности
-              </p>
-            </div>
-          </div>
-          <div class="intro__form">
-            <div class="container">
-              <div class="row justify-content-center">
-                <div class="col-4">
-                  <div class="input-group input-group-lg">
-                    >
-                    <input
-                      type="text"
-                      class="form-control"
-                      aria-label="Пример размера поля ввода"
-                      aria-describedby="inputGroup-sizing-lg"
-                    />
-                  </div>
-                </div>
-                <div class="col-4">
-                  <div class="input-group input-group-lg">
-                    >
-                    <input
-                      type="text"
-                      class="form-control"
-                      aria-label="Пример размера поля ввода"
-                      aria-describedby="inputGroup-sizing-lg"
-                    />
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-    </main>
-    <footer class="footer"></footer>
-    <!-- Bootstrap JavaScript Libraries -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="js/bootstrap.bundle.js"></script>
-    <script src="https://unpkg.com/imask"></script>
-    <script>
-      const element = document.getElementById("phone");
-      const maskOptions = {
-        mask: "+{7}(000)000-00-00",
-        lazy: false,
-      };
-      const mask = IMask(element, maskOptions);
-    </script>
-  </body>
+    </section>
+    <section class="lesson">
+      <script>
+        function Accumulator(startingValue) {
+          this.value = startingValue;
+
+          this.read = function () {
+            this.value += +prompt('Сколько нужно добавить?', 0);
+          };
+
+        }
+
+        let accumulator = new Accumulator(1);
+        accumulator.read();
+        accumulator.read();
+        alert(accumulator.value);
+      </script>
+
+    </section>
+  </main>
+  <footer class="footer"></footer>
+  <!-- Bootstrap JavaScript Libraries -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="js/bootstrap.bundle.js"></script>
+  <script src="https://unpkg.com/imask"></script>
+  <script>
+    const element = document.getElementById("phone");
+    const maskOptions = {
+      mask: "+{7}(000)000-00-00",
+      lazy: false,
+    };
+    const mask = IMask(element, maskOptions);
+  </script>
+</body>
+
 </html>

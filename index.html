@@ -136,23 +136,21 @@
         </div>
       </div>
     </section>
-    <section class="lesson">
-      <script>
-        function Accumulator(startingValue) {
-          this.value = startingValue;
+    <section class="object--card">
+      <div class="object--card__wrapper">
+        <div class="row">
+          <script>
+            let arr = ["nap", "teachers", "cheaters", "PAN", "ear", "era", "hectares"];
 
-          this.read = function () {
-            this.value += +prompt('Сколько нужно добавить?', 0);
-          };
-
-        }
-
-        let accumulator = new Accumulator(1);
-        accumulator.read();
-        accumulator.read();
-        alert(accumulator.value);
-      </script>
-
+            function aclean() {
+              while (typeof arr[key] !== undefined) {
+                let arr = Array.from(new Set(arr));
+                alert (aclean(arr))
+              }
+            }
+          </script>
+        </div>
+      </div>
     </section>
   </main>
   <footer class="footer"></footer>
